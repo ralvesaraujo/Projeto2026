@@ -1,0 +1,44 @@
+RESUMO DA ANÁLISE DO TITANIC
+================================================================================
+
+1. SOBREVIVÊNCIA POR CLASSE
+        Taxa_Sobrevivencia  Total_Passageiros  Sobreviventes  Nao_Sobreviventes
+Pclass                                                                         
+1                    46.73                107             50                 57
+2                    32.26                 93             30                 63
+3                    33.03                218             72                146
+
+2. SOBREVIVÊNCIA POR SEXO
+        Taxa_Sobrevivencia  Total  Sobreviventes
+Sex                                             
+female              100.00    152            152
+male                  0.00    266              0
+
+3. SOBREVIVÊNCIA POR FAIXA ETÁRIA
+              mean  count
+Faixa_Etaria             
+Criança      43.48     23
+Adolescente  38.89     18
+Jovem Adulto 34.08    267
+Adulto       37.84     74
+Idoso        44.44     36
+
+4. SOBREVIVÊNCIA POR TAMANHO DA FAMÍLIA
+                 Taxa_Sobrevivencia  Total  Sobreviventes  Percentual_Total
+Tamanho_Familia                                                            
+1                             26.88    253             68             60.53
+2                             48.65     74             36             17.70
+3                             52.63     57             30             13.64
+4                             71.43     14             10              3.35
+5                             28.57      7              2              1.67
+6                             66.67      3              2              0.72
+7                             25.00      4              1              0.96
+8                             50.00      2              1              0.48
+11                            50.00      4              2              0.96
+
+5. CORRELAÇÃO TARIFA-SOBREVIVÊNCIA
+Correlação: 0.1920
+          count  mean   std  min  25%   50%   75%    max
+Survived                                                
+0        266.00 27.48 41.01 0.00 7.85 13.00 26.41 262.38
+1        152.00 49.75 73.11 6.95 8.63 21.51 55.44 512.33
